@@ -1,0 +1,29 @@
+body {
+  color: $text-color-dark;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.header {
+  color: $text-color-light;
+  a {
+    color: $text-color-light
+  }
+}
+
+.main-color {
+  background-color: $main-color;
+  color: $text-color-light;
+}
+
+.light-color {
+  background-color: $light-color;
+  color: $text-color-dark;
+}
