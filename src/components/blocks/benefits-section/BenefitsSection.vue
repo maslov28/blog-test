@@ -36,9 +36,12 @@
 </template>
 
 <style lang="scss">
+@import '@/assets/scss/utils/vars.scss';
+
 .benefits {
   padding-top: 89px;
   padding-bottom: 111px;
+  background-color: $section-bg-dark;
 }
 .benefits__cards {
   display: flex;
