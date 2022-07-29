@@ -2,43 +2,43 @@
   <ul class="social-links">
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/linkedin-logo.svg" alt="Linkedin">
+        <img class="social-link__img" src="@/assets/img/linkedin-logo.svg" alt="Linkedin">
         <span class="social-link__text">Linkedin</span>
       </a>
     </li>
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/upwork-logo.svg" alt="Upwork">
+        <img class="social-link__img" src="@/assets/img/upwork-logo.svg" alt="Upwork">
         <span class="social-link__text">Upwork</span>
       </a>
     </li>
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/facebook-logo.svg" alt="Facebook">
+        <img class="social-link__img" src="@/assets/img/facebook-logo.svg" alt="Facebook">
         <span class="social-link__text">Facebook</span>
       </a>
     </li>
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/vk-logo.svg" alt="Vkontakte">
+        <img class="social-link__img" src="@/assets/img/vk-logo.svg" alt="Vkontakte">
         <span class="social-link__text">Vkontakte</span>
       </a>
     </li>
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/telegram-logo.svg" alt="Telegram">
+        <img class="social-link__img" src="@/assets/img/telegram-logo.svg" alt="Telegram">
         <span class="social-link__text">Telegram</span>
       </a>
     </li>
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/instagram-logo.svg" alt="Instagram">
+        <img class="social-link__img" src="@/assets/img/instagram-logo.svg" alt="Instagram">
         <span class="social-link__text">Instagram</span>
       </a>
     </li>
     <li class="social-links__item">
       <a class="social-link" href="#">
-        <img class="social-link__img" src="../../../assets/img/youtube-logo.svg" alt="YouTube">
+        <img class="social-link__img" src="@/assets/img/youtube-logo.svg" alt="YouTube">
         <span class="social-link__text">YouTube</span>
       </a>
     </li>

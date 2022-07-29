@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import StartSection from '../../components/blocks/start-section/StartSection.vue'
-import BenefitsSection from '../../components/blocks/benefits-section/BenefitsSection.vue'
-import AdventagesSection from '../../components/blocks/adventages-section/AdventagesSection.vue'
+import StartSection from '@/components/blocks/start-section/StartSection.vue'
+import BenefitsSection from '@/components/blocks/benefits-section/BenefitsSection.vue'
+import AdventagesSection from '@/components/blocks/adventages-section/AdventagesSection.vue'
 export default {
   components: {
     StartSection,

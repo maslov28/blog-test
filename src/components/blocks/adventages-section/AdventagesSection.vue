@@ -3,7 +3,7 @@
     <div class="container">
       <div class="adventages__blocks">
         <div class="adventages__block">
-        <img class="adventages__block-img" src="../../../assets/img/adventage-1.svg">
+        <img class="adventages__block-img" src="@/assets/img/adventage-1.svg">
         <div class="adventages__block-content">
           <h3 class="adventages__block-title">Команда профессионалов, закрытое Python-комьюнити</h3>
           <p class="adventages__block-text">
@@ -19,10 +19,10 @@
               Прежде всего мы инженеры, и наше основное предназначение — находить максимально эффективные и экономичные решения бизнес-задачам. В своей работе мы применяем множество разноообразных инструментов и технологий. Неизменным остается только одно - наш стэк: Python, Django, VueJS и ReactJS.
             </p>
           </div>
-          <img class="adventages__block-img" src="../../../assets/img/adventage-2.svg">
+          <img class="adventages__block-img" src="@/assets/img/adventage-2.svg">
         </div>
         <div class="adventages__block">
-          <img class="adventages__block-img" src="../../../assets/img/adventage-3.svg">
+          <img class="adventages__block-img" src="@/assets/img/adventage-3.svg">
           <div class="adventages__block-content">
             <h3 class="adventages__block-title adventages__block-title--small">Быстрый старт, минимум бюрократии</h3>
             <p class="adventages__block-text">
@@ -37,7 +37,7 @@
               Не усложняем рабочие процессы без явной необходимости. Бережно относимся к ресурсам. Ведем разработку по спринтам или канбану. Автоматизируем процессы деплоя и тестирования. Наши бэкенд-разработчики не боятся фронтенда, а фронтенд-разработчики - бэкенда.
             </p>
           </div>
-          <img class="adventages__block-img" src="../../../assets/img/adventage-4.svg">
+          <img class="adventages__block-img" src="@/assets/img/adventage-4.svg">
         </div>
       </div>
     </div>

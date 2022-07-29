@@ -48,8 +48,8 @@
 
 <script>
 import HeaderTop from "./header/HeaderTop.vue";
-import SocialLinks from "../../common/social/SocialLinks.vue";
-import ActionButton from "../../common/buttons/ActionButton.vue"
+import SocialLinks from "@/components/common/social/SocialLinks.vue";
+import ActionButton from "@/components/common/buttons/ActionButton.vue"
 
 export default {
   components: { 
