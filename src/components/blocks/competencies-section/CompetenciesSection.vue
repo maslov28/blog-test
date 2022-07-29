@@ -60,11 +60,12 @@
     }
     &__block {
         display: grid;
-        grid-template: 64px 76px 38px auto / 1fr;
+        grid-template: 74px 48px 50px 1fr / 1fr;
         &-title {
             font-weight: 800;
             font-size: 24px;
             line-height: 29px;
+            padding-bottom: 52px;
         }
         &-images {
             display: flex;
@@ -77,10 +78,12 @@
             font-weight: 500;
             font-size: 18px;
             line-height: 22px;
+            padding-top: 28px;
         }
         &-description {
             color: $text-color-blur;
             line-height: 24px;
+            padding-top: 16px;
         }
     }
 }
