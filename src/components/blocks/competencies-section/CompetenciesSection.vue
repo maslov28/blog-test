@@ -42,8 +42,6 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/scss/utils/vars.scss';
-
 .competencies {
     padding-bottom: 140px;
     &__title {

@@ -84,8 +84,6 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/scss/utils/vars.scss';
-
 .comparison {
   background-color: $section-bg-dark;
   padding-top: 97px;

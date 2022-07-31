@@ -61,8 +61,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/assets/scss/utils/vars.scss';
-
 .header {
   background: url('@/assets/img/start-bg.jpg');
   background-size: cover;

@@ -45,8 +45,6 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/scss/utils/vars.scss';
-
 .adventages {
   padding-top: 101px;
   padding-bottom: 165px;
