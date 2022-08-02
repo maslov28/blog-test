@@ -8,6 +8,7 @@
     <projects-section></projects-section>
     <feedback-section></feedback-section>
     <discussion-section></discussion-section>
+    <footer-section></footer-section>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import ComparisonSection from '../../components/blocks/comparison-section/Compar
 import ProjectsSection from '@/components/blocks/projects-section/projects-section.vue'
 import FeedbackSection from '../../components/blocks/feedback-section/feedback-section.vue'
 import DiscussionSection from '../../components/blocks/discussion-section/discussion-section.vue'
+import FooterSection from '@/components/blocks/footer/footer-section.vue'
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     ComparisonSection,
     ProjectsSection,
     FeedbackSection,
-    DiscussionSection
+    DiscussionSection,
+    FooterSection
 }
 }
 </script>
