@@ -6,6 +6,7 @@
     <competencies-section></competencies-section>
     <comparison-section></comparison-section>
     <projects-section></projects-section>
+    <feedback-section></feedback-section>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import AdventagesSection from '@/components/blocks/adventages-section/Adventages
 import CompetenciesSection from '@/components/blocks/competencies-section/CompetenciesSection.vue'
 import ComparisonSection from '../../components/blocks/comparison-section/ComparisonSection.vue'
 import ProjectsSection from '@/components/blocks/projects-section/projects-section.vue'
+import FeedbackSection from '../../components/blocks/feedback-section/feedback-section.vue'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     AdventagesSection,
     CompetenciesSection,
     ComparisonSection,
-    ProjectsSection
+    ProjectsSection,
+    FeedbackSection
 }
 }
 </script>
