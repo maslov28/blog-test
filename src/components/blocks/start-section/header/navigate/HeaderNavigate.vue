@@ -33,6 +33,12 @@
     &-item:not(:last-child) {
       margin-right: 32px;
     }
+    &-link {
+      transition: all ease .2s;
+    }
+    &-link:hover {
+      opacity: .5;
+    }
     &-link--arrow {
       position: relative;
     }

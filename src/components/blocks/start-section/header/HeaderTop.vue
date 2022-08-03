@@ -23,8 +23,18 @@ export default {
     padding: 31px 40px 31px 40px;
     justify-content: space-between;
     font-weight: 600;
-    .header__top-phone {
+    &-phone {
       margin-right: 70px;
+      transition: all ease .2s;
+    }
+    &-phone:hover {
+      opacity: .5;
+    }
+    &-language {
+      transition: all ease .2s;
+    }
+    &-language:hover {
+      opacity: .5;
     }
   }
 </style>

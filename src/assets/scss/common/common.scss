@@ -15,11 +15,24 @@ body {
 .main-color {
   background-color: $main-color;
   color: $text-color-light;
+  transition: all ease .2s;
+}
+
+.main-color:hover {
+  background-color: $light-color;
+  color: $text-color-dark;
 }
 
 .light-color {
   background-color: $light-color;
   color: $text-color-dark;
+  transition: all ease .2s;
+}
+
+.light-color:hover {
+  box-shadow: 0 5px 10px 0 $text-color-dark;
+  background-color: $main-color;
+  color: $text-color-light;
 }
 
 .highlight {

@@ -9,7 +9,7 @@
       <div class="projects__slider">
         <carousel-slider :dotBtn="true" :countSlide="4">
           <div class="slider__item">
-            <div class="slider__item-block slider__item-block--a">
+            <a class="slider__item-block slider__item-block--a" href="#">
               <img class="slider__item-bg" src="@/assets/img/boat-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">SailSpeak</h4>
@@ -17,8 +17,8 @@
                   Разработка маркетплейса по аренде яхт SailSpeak
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--b">
+            </a>
+            <a class="slider__item-block slider__item-block--b" href="#">
               <img class="slider__item-bg" src="@/assets/img/car-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">Быстрые займы</h4>
@@ -26,8 +26,8 @@
                   Разработка промо-сайта займы под залог ПТС
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--c">
+            </a>
+            <a class="slider__item-block slider__item-block--c" href="#">
               <img
                 class="slider__item-bg"
                 src="@/assets/img/sculpture-bg.jpg"
@@ -38,10 +38,10 @@
                   Система регистрирует авторское право по цене чашки кофе
                 </p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="slider__item">
-            <div class="slider__item-block slider__item-block--a">
+            <a class="slider__item-block slider__item-block--a" href="#">
               <img class="slider__item-bg" src="@/assets/img/boat-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">SailSpeak</h4>
@@ -49,8 +49,8 @@
                   Разработка маркетплейса по аренде яхт SailSpeak
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--b">
+            </a>
+            <a class="slider__item-block slider__item-block--b" href="#">
               <img class="slider__item-bg" src="@/assets/img/car-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">Быстрые займы</h4>
@@ -58,8 +58,8 @@
                   Разработка промо-сайта займы под залог ПТС
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--c">
+            </a>
+            <a class="slider__item-block slider__item-block--c" href="#">
               <img
                 class="slider__item-bg"
                 src="@/assets/img/sculpture-bg.jpg"
@@ -70,10 +70,10 @@
                   Система регистрирует авторское право по цене чашки кофе
                 </p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="slider__item">
-            <div class="slider__item-block slider__item-block--a">
+            <a class="slider__item-block slider__item-block--a" href="#">
               <img class="slider__item-bg" src="@/assets/img/boat-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">SailSpeak</h4>
@@ -81,8 +81,8 @@
                   Разработка маркетплейса по аренде яхт SailSpeak
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--b">
+            </a>
+            <a class="slider__item-block slider__item-block--b" href="#">
               <img class="slider__item-bg" src="@/assets/img/car-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">Быстрые займы</h4>
@@ -90,8 +90,8 @@
                   Разработка промо-сайта займы под залог ПТС
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--c">
+            </a>
+            <a class="slider__item-block slider__item-block--c" href="#">
               <img
                 class="slider__item-bg"
                 src="@/assets/img/sculpture-bg.jpg"
@@ -102,10 +102,10 @@
                   Система регистрирует авторское право по цене чашки кофе
                 </p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="slider__item">
-            <div class="slider__item-block slider__item-block--a">
+            <a class="slider__item-block slider__item-block--a" href="#">
               <img class="slider__item-bg" src="@/assets/img/boat-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">SailSpeak</h4>
@@ -113,8 +113,8 @@
                   Разработка маркетплейса по аренде яхт SailSpeak
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--b">
+            </a>
+            <a class="slider__item-block slider__item-block--b" href="#">
               <img class="slider__item-bg" src="@/assets/img/car-bg.jpg" />
               <div class="slider__item-content">
                 <h4 class="slider__item-title">Быстрые займы</h4>
@@ -122,8 +122,8 @@
                   Разработка промо-сайта займы под залог ПТС
                 </p>
               </div>
-            </div>
-            <div class="slider__item-block slider__item-block--c">
+            </a>
+            <a class="slider__item-block slider__item-block--c" href="#">
               <img
                 class="slider__item-bg"
                 src="@/assets/img/sculpture-bg.jpg"
@@ -134,7 +134,7 @@
                   Система регистрирует авторское право по цене чашки кофе
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </carousel-slider>
       </div>
@@ -194,6 +194,13 @@ export default {
   &-text {
     font-size: 16px;
     line-height: 24px;
+  }
+  &-block {
+    transition: all ease .2s;
+  }
+  &-block:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: .8;
   }
   &-block--a {
     grid-area: a;

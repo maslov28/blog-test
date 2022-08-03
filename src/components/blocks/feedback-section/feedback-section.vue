@@ -177,5 +177,10 @@ export default {
 .slider__items {
   max-width: 560px;
 }
-
+.highlight {
+  transition: all ease .2s;
+}
+.highlight:hover {
+  opacity: .5;
+}
 </style>

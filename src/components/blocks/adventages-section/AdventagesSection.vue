@@ -88,6 +88,10 @@
       font-size: 18px;
       line-height: 28px;
       color: $main-color;
+      transition: all ease .2s;
+    }
+    &-link:hover {
+      opacity: .5;
     }
   }
 }

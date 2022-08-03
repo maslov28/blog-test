@@ -91,6 +91,10 @@ export default {
         height: 40px;
         background-color: $main-color;
         border-radius: 50%;
+        transition: all ease .2s;
+    }
+    &__prev-btn:hover, .slider__next-btn:hover {
+        opacity: .5;
     }
     &__prev-btn {
         position: relative;
